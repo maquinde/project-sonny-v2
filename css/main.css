@@ -3,5 +3,11 @@
   padding: 0;
   box-sizing: border-box; }
 
-.carousel-caption {
+.carousel-inner .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  overflow: hidden; }
+
+.carousel-inner .carousel-item .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
